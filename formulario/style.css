@@ -3,6 +3,7 @@
 body{
     background-color: grey;
     font-family: Arial;
+    padding: 20px;
 }
 
 h1, h4{
@@ -19,4 +20,10 @@ form{
 
 textarea{
     resize: vertical;
+}
+
+button:hover{
+    background-color: burlywood;
+    font-size: medium;
+    border-radius: 10px;
 }

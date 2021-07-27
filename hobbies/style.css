@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');
+*{box-sizing: border-box;
+    background-color: antiquewhite;
+    font-family: 'Baloo Chettan 2', cursive;}
+
+body{
+    margin: auto;
+}
+
+h4{
+    text-align: center;
+}
+
+section#Esportes{
+    padding: 30px;
+    display: inline-block;
+    width: 300px;
+    height: 600px;
+    border-style: dotted;
+}
+
+section#Hist{
+    padding: 30px;
+    display: inline-block;
+    width: 656px;
+    height: 600px;
+    vertical-align: top;
+    text-align: justify;
+    border-style: dotted;
+}
+
+header, footer{
+    padding: 30px;
+    width: 960px;
+    text-align: center;
+    border-style: dotted;
+}
+
+footer{
+    font-style: italic;
+}

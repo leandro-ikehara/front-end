@@ -1,9 +1,13 @@
-/* body {
-    background-color: pink;
-} */
-
 body {
+    background-color: whitesmoke;
     font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    width: 960px;
+    border-style: dotted
+}
+
+nav{
+    background-color: gray;
 }
 
 h1{
@@ -21,4 +25,9 @@ h1, h2 {
     text-align: justify;
     font-size: 14px;
     line-height: 9px;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
 }
