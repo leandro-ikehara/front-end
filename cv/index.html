@@ -2,34 +2,40 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link href="style.css" rel="stylesheet">
+        <link href="./style.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
         <title> CV - Leandro Ikehara </title>
     </head>
-    <body>
-        <header><h1><strong>Currículo - Leandro Ikehara</strong></h1></header>
+    <body class="cv">
+        <header class="cv"><h1><strong>Currículo - Leandro Ikehara</strong></h1></header>
 
-        <h2><strong><nav>Perfil</nav></strong></h2>
-        <p>Sou Leandro, 38 anos, namorando e morador da Zona Sul, sem filhos, mas com um doguinho.
+        <nav class="cv">
+                <img src='../cv/src/images/profile.jpg'>
+        </nav>
+        
+        <section class="cv"><h2><strong>Leandro Ikehara</strong></h2>
+        <article>
+            Sou Leandro, 38 anos, namorando e morador da Zona Sul, sem filhos, mas com um doguinho.
             <br>Estou participando do programa Quero Ser Dev no curso de <mark>Front-End da RD</mark>.
             <br>Essa é a primeira aula de <em>HMTL</em> e <em>CSS</em> com o instrutor Jonas Oliveira.
-        </p>
-        <h2><strong><nav>Dados Pessoais</nav></strong></h2>
-        <p><ul>
-            <li><strong>Nome:</strong> Leandro Ikehara</li> 
-            <li><strong>Endereço:</strong> Av. Interlagos, 2000 - São Paulo/SP</li>
-            <li><strong>E-mail:</strong> leandro_ikehara@rd.com.br</li>            
-        </ul>
-            <h2><strong><nav>Formação Acadêmica</nav></strong></h2>
+            <br>
+            <br>Confira aqui <a href="./hobbies.html">Meus Hobbies</a>
+        </article>
+        </section>
+        <br>
+
+        <nav class="cv">
+            <h2><strong>Formação Acadêmica</strong></h2>
                 <ul>
                     <li><strong><abbr title = "Universidade Anhembi-Morumbi">UAM</abbr> - Universidade Anhembi-Morumbi:</strong> Turismo, 2004.</li>
                     <li><strong><abbr title = "Faculdade Impacta de Tecnologia">FIT</abbr> - Faculdade Impacta de Tecnologia:</strong> Sistemas de Informação, 2015.</li>
                 </ul>
             </li>
-
-            <h2><strong><nav>Experiência Profissional:</nav></strong></h2>
+        </nav>
+            <section class="cv">
+            <h2><strong>Experiência Profissional:</strong></h2>
                 <ul>
                     <li><strong>Raia-Drogasil (2021):</strong> Desenvolvedor Jr.</li>
                     <li><strong>DuPont do Brasil (2015):</strong> Estágio em TI.</li>
@@ -37,9 +43,32 @@
                     <li><strong>Viagens CVC (2009):</strong> Consultor de Viagens Líder.</li>
                     <li><strong>Avipam Turismo (2007):</strong> Consultor de Viagens Pleno.</li>
                 </ul>
-            </li>
+            </section>
 
-        <footer>Leandro Ikehara - 2021
+            <nav class="cv">
+            <h2><strong>Redes Sociais:</strong></h2>
+            <ol>
+                <li><a href="https://br.linkedin.com/in/leandroikehara/pt-br"><img src='src/images/linkedin.png' class="rede_social"></a></li>
+                <li><a href="https://github.com/leandro-ikehara"><img src='src/images/github.png' class="rede_social"></a></li>
+                <li><a href="https://www.instagram.com/leandro_ikehara/"><img src='src/images/instagram.png' class="rede_social"></a></li>
+                <li><a href="https://www.facebook.com/LeandroIkehara.IT"><img src='src/images/facebook.png' class="rede_social"></a></li>
+            </ol>
+        </nav>
+
+            <section class="cv"><h2><strong>Contato</strong></h2>
+                <article>
+                    <li><strong>Nome:</strong> Leandro Ikehara</li>
+                    <li><strong>Nasc:</strong> 24/12/1982</li> 
+                    <li><strong>Endereço:</strong> Av. Interlagos, 2000 - São Paulo/SP</li>
+                    <li><strong>E-mail:</strong> <a href="mailto:leandro_ikehara@rd.com.br?subject=Mensagem do Site">
+                        leandro_ikehara@rd.com.br</a></li>
+                    <li list-style='none'><a href="tel:1197981-8689"><img src='src/images/whatsapp.png' class="rede_social">
+                        (11) 97981-8689</a></li>
+
+                </article>
+            </section>
+
+        <footer class="cv">Leandro Ikehara - 2021
             <br>CV desenvolvido durante o programa Quero Ser Dev
         </footer>
     </body>

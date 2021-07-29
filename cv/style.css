@@ -1,33 +1,98 @@
-body {
-    background-color: whitesmoke;
-    font-family: 'Roboto', sans-serif;
-    padding: 20px;
-    width: 960px;
-    border-style: dotted
-}
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');
+*{box-sizing: border-box;
+    background-color: antiquewhite;
+    font-family: 'Baloo Chettan 2', cursive;}
 
-nav{
-    background-color: gray;
-}
+    body {
+        text-align: center;
+        color: black;
+    }
 
-h1{
-    text-align: center;
-}
+    .cv{
+        border: none;
+    }
 
-h1, h2 {
-    color: #00796b;
-    font-style: italic;
-    text-decoration: underline;
-    font-weight: normal;
-}
+    header, footer, nav, section {
+        border: 5px dotted black;
+        text-align: justify;
+        padding: 30px;
+        margin: 5px auto;
+        vertical-align: top;
+    }
 
-.p {
-    text-align: justify;
-    font-size: 14px;
-    line-height: 9px;
-}
+    header, footer {
+        width: 960px;
+        /* height: 100px; */
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    nav, section {
+        height: 600px;
+        display: inline-block;
+    }
 
-footer{
-    text-align: center;
-    font-style: italic;
-}
+    .hobbies{
+        height: 800px;
+        display: inline-block;
+    }
+
+    img{
+        position: absolute;
+        padding: 0;
+        margin-left: -10px;
+        width: 250px;
+        height: 350px;    
+    }
+
+    video{
+        width: 590px;
+    }
+
+    audio{
+        width: 150px;
+        padding-bottom: 20px;
+    }
+
+
+    .rede_social{
+        position: relative;
+        display: inline-block;
+        padding: 0;
+        margin: auto;
+        width: 50px;
+        height: 50px;
+    }
+
+    .atividades{
+        position: relative;
+        display: inline-block;
+        padding: 0;
+        margin: auto;
+        width: 50px;
+        height: 50px;
+    }
+
+    .favoritos{
+        text-align: center;
+        height: 800px;
+    }
+
+    ol{
+        list-style: none;
+    }
+
+    ul{
+        list-style: none;
+        padding-left: 0;
+    }
+    
+    nav {
+        width: 300px;
+        padding-top: 0;
+    }
+    
+    section {
+        width: 660px;
+        padding-top: 0;
+    }
