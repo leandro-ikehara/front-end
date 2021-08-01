@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Rio2016 Light Regular';
+    src: url(../fonts/rio2016-light-regular.otf);
+}
+
+*{box-sizing: border-box;}
+
+header{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Rio2016 Light Regular';
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    font-size: 30px;
+    color: aliceblue;
+}
+
+body{
+    background-color: #4169E1;
+    /* border: 5px dotted black; */
+    max-height: 100vh;
+    margin: 0;
+    font-family: 'Rio2016 Light Regular';
+/*    text-align: justify;
+    padding: 30px;
+    margin: 5px auto;
+    vertical-align: top; */
+}
+
+.bloco{
+    padding-top: 30px;
+    display: flex;
+    position: relative;
+    text-align: center;
+    display: block;
+    align-items: center;
+    align-content: center;  
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.olimpiadas {
+    display: inline-block;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: cornsilk;
+    list-style: none;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    max-width: 50%;
+    width: 500px;
+    height: 480px;
+    padding: 0;
+}
+
+.medalhista::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-size: 30px;
+    position: absolute;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+
+.china{
+    padding: 30px 50px 10px 50px;
+    border-bottom: 1px solid black;
+}
+
+.china::before{
+    background-image: url(../images/china.svg);
+}
+
+.japao{
+    padding: 30px 50px 10px 50px;
+    border-bottom: 1px solid black;
+}
+
+.japao::before{
+    background-image: url(../images/japan.svg);
+}
+
+.eua{
+    padding: 30px 50px 10px 50px;
+    border-bottom: 1px solid black;
+}
+
+.eua::before{
+    background-image: url(../images/usa.png);
+}
+
+.brasil{
+    padding: 30px 50px 10px 50px;
+}
+
+.brasil::before{
+    background-image: url(../images/brazil.png);
+}
+
+.medalha{
+    color: grey;
+    position: relative;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px 0 40px;
+}
+
+
+
+img{
+    width: 18px;
+    height: 18px;
+}
