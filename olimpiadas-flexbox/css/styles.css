@@ -122,8 +122,14 @@ body{
 }
 
 
-
 img{
     width: 18px;
     height: 18px;
+}
+
+@media (max-width: 360px){
+    .medalhista::before{
+        margin-left: -20px;
+        font-size: 2px;
+    }
 }

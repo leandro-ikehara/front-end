@@ -33,7 +33,16 @@
         height: 100px;
         z-index: 2;
     }
+    table{
+        height: 25vh;
+        width: 100vw;
+        vertical-align: top;
+    }
 
+    td{
+        width: 100vw;
+        height: 25vh;
+    }
     
 
     header, footer, nav, section {
@@ -42,6 +51,10 @@
         padding: 30px;
         margin: 5px auto;
         vertical-align: top;
+    }
+
+    h2{
+        background-color: gray;
     }
 
     header, footer {
@@ -146,6 +159,5 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        background-color: green;
         position: relative;
     }
