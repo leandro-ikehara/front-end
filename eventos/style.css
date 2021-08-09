@@ -1,0 +1,24 @@
+.cumprimentar{
+    color: aliceblue;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    background-color:#048000;    
+}
+
+.cumprimentar:hover{
+    box-shadow: 2px grey;
+    font-size: large;
+}
+
+.alteraFundo{
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    background-color: darkgrey;
+}
+
+.alteraFundo:hover{
+    font-size: large;
+    box-shadow: 2px solid;
+}

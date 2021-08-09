@@ -10,34 +10,41 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" href="https://spacentauro-a.akamaihd.net/assets/favico.ico" data-react-helmet="true">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
     <title>Centauro Loja de Esportes - Fake</title>
 </head>
-<header class="py-4">
-    <div class="container-fluid">
-        <div class="d-flex flex-row align-items-center">
-                <nav class="col-6 navbar navbar-light">
-                    <div class="container-fluid">
-                        <a class="navbar-brand">
-                            <img src="https://spacentauro-a.akamaihd.net/assets/logo-centauro-header2.0.svg" width="134"
-                                height="" alt="Centauro" title="Centauro">
-                        </a>
-                        <form class="d-flex col-6 col-md-8">
-                            <input class="form-control me-2 col-4" type="search" placeholder="o que você procura? :)"
-                                aria-label="Busca">
-                        </form>
-                    </div>                    
-                </nav>
 
-                <div class="d-flex col-1 col-md-2 justify-content-around cadastre-se">
-                    <strong><b>Entre ou cadastre-se</b>
-                    <br>Meus pedidos</strong>
+<header>
+    <div class="container-fluid align-items-center">
+        <nav class="navbar navbar-light justify-content-around navbar-collapse"
+            style="background-color:rgb(227, 0, 0);">
+            <a class="navbar-brand">
+                <img src="https://spacentauro-a.akamaihd.net/assets/logo-centauro-header2.0.svg" width="180" height="86"
+                    alt="Centauro" title="Centauro">
+            </a>
+            <div class="input-group mb-3 barra-pesquisa border-white">
+                <button class="btn btn-outline-secondary bg-white border-white" type="button" id="button-addon1"><i
+                        class="bi bi-search"></i></button>
+                <input type="text" class="form-control" placeholder="o que você procura? :)" aria-label="Pesquisa"
+                    aria-describedby="button-addon1">
             </div>
-                    <div class="d-flex col-1 col-md-1 links justify-content-around">
-                        <div class="favoritos"><img src="../centauro/img/favoritos.svg" alt=""></div>
-                        <div class="carrinho"><img src="../centauro/img/carrinho.svg" alt=""></div>
-                </div>    
+            <div class="d-md-flex col-3 col-md-2 justify-content-end align-items-center collapse">
+                <div>
+                    <i class="bi bi-person-circle"></i>
+                </div>
+                <div class="cadastre-se">
+                    Entre ou cadastre-se
+                    <br>
+                    <a class="pedidos">Meus pedidos</a>
+                </div>
+            </div class="d-flex col-1 col-md-2">
+            <div class="d-flex favoritos justify-content-between"><i class="bi bi-heart-fill" style="color: white"></i>
             </div>
-        </div>
+            <div class="d-flex carrinho justify-content-between collapse-show"><i class="bi bi-cart-fill"
+                    style="color: white;"></i>
+                </div>
+            </div>
+        </nav>
     </div>
 </header>
 
@@ -47,7 +54,7 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">ESPORTES</a>
+                        <a class="nav-link" aria-current="page" href="#">ESPORTES</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">HOMENS</a>
@@ -80,7 +87,7 @@
                         <a class="nav-link" href="#">FUTEBOL</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link outlet" href="#">OUTLET</a>
+                        <a class="nav-link outlet" style="color: red;" href="#">OUTLET</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link diadospais" href="#">DIA DOS PAIS</a>
@@ -91,7 +98,7 @@
     </nav>
     <nav class="frete">
         <div>
-            <img src="../centauro/img/frete.webp" class="img-fluid" alt="...">   
+            <img src="../centauro/img/frete.webp" class="img-fluid" alt="...">
         </div>
     </nav>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -127,68 +134,87 @@
         </button>
     </div>
     <nav class="whatsapp">
-    <div>
-        <img src="https://imgcentauro-a.akamaihd.net/01_Desk/2021/06-Junho/multicanalidade/multicanalidade-whatsapp.jpg" class="img-fluid" alt="...">
-    </div>
+        <div>
+            <img src="https://imgcentauro-a.akamaihd.net/01_Desk/2021/06-Junho/multicanalidade/multicanalidade-whatsapp.jpg"
+                class="img-fluid" alt="...">
+        </div>
     </nav>
-    <div class="title">Produtos que baixaram de preço</div>
+    <div class="title"><h3>Mais populares</h3></div>
     <div class="container">
-        <div class="row justify-content-between">
-            <div class="card-group">
+        <div class="d-flex justify-content-between">
+            <div class="card-group align-items-center">
                 <div class="card" style="width: 18rem; border-radius: 5px; margin: 20px;">
                     <img src="https://imgcentauro-a.akamaihd.net/230x230/9431370R.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <a href="https://www.centauro.com.br/tenis-nike-revolution-5-masculino-943137.html?cor=0R" class="link-dark">
-                        <p class="card-text"><strong>Tênis Nike Revolution 5 - Masculino</strong></p>
-                        <p class="preco"><s>R$ 349,99</s> <b>R$ 249,99</b>
-                        <br>ou <b>8x</b> de <b>R$ 31,25</b> sem juros</p>
+                        <a href="https://www.centauro.com.br/tenis-nike-revolution-5-masculino-943137.html?cor=0R"
+                            class="link-dark" style="text-decoration: none;">
+                            <p class="card-text"><strong>Tênis Nike Revolution 5 - Masculino</strong></p>
+                            <p class="preco"><s>R$ 349,99</s> <b>R$ 249,99</b>
+                                <br>ou <b>8x</b> de <b>R$ 31,25</b> sem juros
+                            </p>
                     </div>
-                </a>
+                    </a>
                 </div>
                 <div class="card" style="width: 18rem; border-radius: 5px; margin: 20px;">
-                    <a href="https://www.centauro.com.br/tenis-nike-revolution-5-feminino-942906.html?cor=02" class="link-dark">
-                    <img src="https://imgcentauro-a.akamaihd.net/230x230/94290602.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text"><strong>Tênis Nike Revolution 5 - Feminino</strong></p>
-                        <p class="preco"><s>R$ 349,99</s> <b>R$ 249,99</b>
-                        <br>ou <b>8x</b> de <b>R$ 31,25</b> sem juros</p>
-                    </div>
+                    <a href="https://www.centauro.com.br/tenis-nike-revolution-5-feminino-942906.html?cor=02"
+                        class="link-dark" style="text-decoration: none">
+                        <img src="https://imgcentauro-a.akamaihd.net/230x230/94290602.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><strong>Tênis Nike Revolution 5 - Feminino</strong></p>
+                            <p class="preco"><s>R$ 349,99</s> <b>R$ 249,99</b>
+                                <br>ou <b>8x</b> de <b>R$ 31,25</b> sem juros
+                            </p>
+                        </div>
                 </div></a>
                 <div class="card" style="width: 18rem; border-radius: 5px; margin: 20px;">
-                    <a href="https://www.centauro.com.br/conjunto-de-agasalho-oxer-polytricot-masculino-926952.html?cor=5G" class="link-dark">
-                    <img src="https://imgcentauro-a.akamaihd.net/230x230/9269525G.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text"><strong>Conjunto de Agasalho Oxer Politrycot - Masculino</strong></p>
-                        <p class="preco"><s>R$ 139,99</s> <b>R$ 129,99</b>
-                        <br>ou <b>4x</b> de <b>R$ 32,50</b> sem juros</p>
-                    </div>
+                    <a href="https://www.centauro.com.br/conjunto-de-agasalho-oxer-polytricot-masculino-926952.html?cor=5G"
+                        class="link-dark" style="text-decoration: none">
+                        <img src="https://imgcentauro-a.akamaihd.net/230x230/9269525G.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><strong>Conjunto de Agasalho Oxer Politrycot - Masculino</strong></p>
+                            <p class="preco"><s>R$ 139,99</s> <b>R$ 129,99</b>
+                                <br>ou <b>4x</b> de <b>R$ 32,50</b> sem juros
+                            </p>
+                        </div>
                 </div></a>
                 <div class="card" style="width: 18rem; border-radius: 5px; margin: 20px;">
-                    <a href="https://www.centauro.com.br/calca-nike-sportswear-club-jogger-jsy-masculina-938246.html?cor=02" class="link-dark">
-                    <img src="https://imgcentauro-a.akamaihd.net/230x230/93824602.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text"><strong>Calça Nike Sportswear Club Jogger JSY - Masculina</strong></p>
-                        <p class="preco"><s>R$ 179,99</s> <b>R$ 159,99</b>
-                        <br>ou <b>5x</b> de <b>R$ 32,00</b> sem juros</p>
-                    </div>
+                    <a href="https://www.centauro.com.br/calca-nike-sportswear-club-jogger-jsy-masculina-938246.html?cor=02"
+                        class="link-dark" style="text-decoration: none">
+                        <img src="https://imgcentauro-a.akamaihd.net/230x230/93824602.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><strong>Calça Nike Sportswear Club Jogger JSY - Masculina</strong></p>
+                            <p class="preco"><s>R$ 179,99</s> <b>R$ 159,99</b>
+                                <br>ou <b>5x</b> de <b>R$ 32,00</b> sem juros
+                            </p>
+                        </div>
                 </div></a>
                 <div class="card" style="width: 18rem; border-radius: 5px; margin: 20px;">
-                    <a href="https://www.centauro.com.br/tenis-new-balance-ml501-masculino-923441.html?cor=02" class="link-dark">
-                    <img src="https://imgcentauro-a.akamaihd.net/230x230/92344102.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text"><strong>Tênis New Balance ML501 - Masculino</strong></p>
-                        <p class="preco"><s>R$ 299,99</s> <b>R$ 199,99</b>
-                        <br>ou <b>6x</b> de <b>R$ 33,33</b> sem juros</p></p>
-                    </div>
+                    <a href="https://www.centauro.com.br/tenis-new-balance-ml501-masculino-923441.html?cor=02"
+                        class="link-dark" style="text-decoration: none">
+                        <img src="https://imgcentauro-a.akamaihd.net/230x230/92344102.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><strong>Tênis New Balance ML501 - Masculino</strong></p>
+                            <p class="preco"><s>R$ 299,99</s> <b>R$ 199,99</b>
+                                <br>ou <b>6x</b> de <b>R$ 33,33</b> sem juros
+                            </p>
+                            </p>
+                        </div>
                 </div></a>
                 <div class="card" style="width: 18rem; border-radius: 5px; margin: 20px;">
-                    <a href="https://www.centauro.com.br/tenis-nike-downshifter-11-feminino-963362.html?cor=31" class="link-dark">
-                    <img src="https://imgcentauro-a.akamaihd.net/230x230/96336231.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text"><strong>Tênis Nike Downshifter 11 - Feminino</strong></p>
-                        <p class="preco"><s>R$ 329,99</s> <b>R$ 229,99</b>
-                        <br>ou <b>7x</b> de <b>R$ 32,86</b> sem juros</p>      
-                    </div>
+                    <a href="https://www.centauro.com.br/tenis-nike-downshifter-11-feminino-963362.html?cor=31"
+                        class="link-dark" style="text-decoration: none">
+                        <img src="https://imgcentauro-a.akamaihd.net/230x230/96336231.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><strong>Tênis Nike Downshifter 11 - Feminino</strong></p>
+                            <p class="preco"><s>R$ 329,99</s> <b>R$ 229,99</b>
+                                <br>ou <b>7x</b> de <b>R$ 32,86</b> sem juros
+                            </p>
+                        </div>
                 </div></a>
             </div>
         </div>
@@ -198,29 +224,34 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-<footer>
-    <div class="d-flex rodape align-items-center">
-    <a class="navbar-brand">
-        <img src="https://spacentauro-a.akamaihd.net/assets/logo-centauro-header2.0.svg" width="134"
-            height="" alt="Centauro" title="Centauro">
-                <div class="col-1 col-md-1 social justify-content-around">
-                <ul>                    
-                    <li><img src="./img/facebook.svg" class="social img-fluid" alt=""></li>
-                    <li><img src="./img/youtube.svg" class="social img-fluid" alt=""></li>
-                    <li><img src="./img/instagram.svg" class="social img-fluid" alt=""></li>
-                </ul></div>            
-            </div>
-            <div>
-        <p class="copyright">Os preços, promoções, condições de pagamento, frete e produtos são válidos exclusivamente para compras realizadas via internet.
-            <br>Fotos meramente ilustrativas. Copyright © 2003-2021 - Centauro.com.br. Todos os direitos reservados.
-        </p>
-        <p class="copyright">
-            SBF COMERCIO DE PRODUTOS ESPORTIVOS S.A. CNPJ: 06.347.409/0069-53
-            <br>Endereço: Rua Martins Gonçalves de Souza nº 346 - Bairro dos Pires, Extrema - MG. CEP: 37640-000 
-            <br>sac@centauro.com.br
-        </p>
-    </div>
-    </a>
-</footer>
+    <footer>
+        <div class="d-flex rodape align-items-center justify-content-around">
+            <a class="navbar-brand">
+                <img src="https://spacentauro-a.akamaihd.net/assets/logo-centauro-header2.0.svg" width="134" height=""
+                    alt="Centauro" title="Centauro">
+                <div class="col-1 col-md-1 social justify-content-between">
+                    <ul>
+                        <li><i class="bi bi-facebook social"></i></li>
+                        <li><i class="bi bi-youtube social"></i></li>
+                        <li><i class="bi bi-instagram social"></i></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="copyright" style="font-weight: bolder;">Os preços, promoções, condições de pagamento, frete e produtos são válidos
+                        exclusivamente para compras realizadas via internet.
+                        <br>Fotos meramente ilustrativas. Copyright © 2003-2021 - Centauro.com.br. Todos os direitos
+                        reservados.
+                    </p>
+                    <p class="copyright" style="font-weight: bolder;">
+                        SBF COMERCIO DE PRODUTOS ESPORTIVOS S.A. CNPJ: 06.347.409/0069-53
+                        <br>Endereço: Rua Martins Gonçalves de Souza nº 346 - Bairro dos Pires, Extrema - MG. CEP:
+                        37640-000
+                        <br>sac@centauro.com.br
+                    </p>
+                </div>
+            </a>
+        </div>
+    </footer>
 </body>
+
 </html>
