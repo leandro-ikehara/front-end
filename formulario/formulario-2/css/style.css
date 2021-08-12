@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+}
+
+.erro{
+    display: none;
+    color: red;
+}
+
+.sucesso{
+    display: none;
+    color: green;
+}

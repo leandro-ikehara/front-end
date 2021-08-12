@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px 200px 20px 200px;
+    background-color: #919090;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.col {
+    background-color: grey;
+    justify-content: space-between;
+    margin: 5px;
+    width: 20vw;
+    height: 20vh;
+}
+
+.navbar-text {
+    text-align: center;
+    justify-content: flex-end;
+    flex: auto;
+}
+
+.box {
+    display: inline-block;
+    background-color: grey;
+    justify-content: space-between;
+    margin: 5px;
+    width: 20vw;
+    height: 20vh;
+}

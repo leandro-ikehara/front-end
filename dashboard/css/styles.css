@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.barra-lateral{
+    background-color: #353232;
+    display: inline-block;
+    justify-content: center;
+    flex-direction: column;
+    width: 20vw;
+    height: 100vh;
+    font-size: small;
+}
+
+.lateral {
+    padding: 0;
+}
+
+h3 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+
+}
+
+h3 {
+    padding-left: 20px;
+}
+
+.lista-lateral {
+    padding-left: 20px;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.lista-lateral:hover{
+    background-color: #0077ff;
+}
+
+.menu-superior {
+    font-size: small;
+}
+
+.lista-superior {
+    font-size: small;
+    color: #353232;
+    font-style: bold;
+    display: inline-block;
+    justify-content: space-around;
+    vertical-align: top;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.lista-superior:hover {
+    text-decoration: underline #00aeff; 
+    cursor: pointer;
+    color: #00aeff;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.container-menu{
+    text-transform: uppercase;
+    display: inline-block;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100vw;
+    height: 10vh;
+    font-size: small;
+}
+
+h4 .caixinhas {
+    text-align: right;
+}
+
+.caixinhas {
+    display: inline-block;
+    width: 15vw;
+    height: 15vh;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.caixinha {
+    border-style: groove;
+    text-align: center;
+    align-items: center;
+    font-size: smaller;
+    padding: 5px;
+    display: block;
+    justify-content: center;
+}
+
+.numero {
+    font-weight: bold;
+}
+
+.habilitados {
+    color: #4343c9;
+    font-size: xx-large;
+}
+
+.parc {
+    color: orange;
+    font-size: xx-large;
+}
+
+.susp {
+    color: red;
+    font-size: xx-large;
+}
+
+.pend {
+    color: purple;
+    font-size: xx-large;
+}
+
+.aguard {
+    color: orangered;
+    font-size: xx-large;
+}
